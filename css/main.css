@@ -376,7 +376,7 @@ body .first-group .contant button:hover span{
 
  body .third-group .component .container .row .about-3{
     height:auto ;
-    margin-top: 15px;
+    margin: 15px 20px;
     background:linear-gradient(rgba(83, 2, 2, 0.5),rgba(0, 0, 0, 0.5)) ;
     border-radius: 30px;
     opacity: 0;
