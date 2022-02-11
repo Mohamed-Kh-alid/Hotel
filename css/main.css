@@ -1,0 +1,643 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.897);
+    text-align: center;
+    position: relative;
+    
+}
+
+/* ///////////////////////////////////////
+             first-group
+ ///////////////////////////////////////
+ */
+body .first-group{
+    width: 100%;
+    height: 100vh;
+    background: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../imegs/face.jpg) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+
+
+body .first-group .navbar-1{
+
+   
+    width: 100%;
+    
+    position: relative;
+    
+    
+   
+}
+
+body .first-group .navbar{
+    background: transparent;
+    
+}
+
+
+body .first-group .navbar .navbar-nav{
+    margin: auto;
+}
+
+body .first-group .navbar .navbar-nav a{
+
+    text-decoration: none;
+    color: #fff;
+    text-transform:uppercase ;
+    position: relative;
+    margin: 0 30px ;
+}
+
+
+body .first-group .navbar .navbar-nav a::after{
+
+    content: '';
+    height: 3px;
+    width: 0%;
+    position: absolute;
+    background: rgb(83, 2, 2);
+    left: 0;
+    bottom: -10px;
+    transition: .5s;
+
+
+}
+
+body .first-group .navbar .navbar-nav a:hover:after{
+
+    text-decoration: none;
+    color: #fff !important;
+    text-transform:uppercase ;
+    width: 100%;
+} 
+
+
+
+body .first-group .contant{
+    width: 100%;
+   
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: #fff;
+}
+body .first-group .contant h1{
+    font-size: 50px;
+   
+}
+
+body .first-group .contant p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height:25px ;
+}
+body .first-group .contant button{
+    width: 200px;
+    padding: 10px 0;
+    margin: 15px 10px;
+    font-size: bold;
+    border: 3px solid rgb(83, 2, 2);
+    text-align: center;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+
+body .first-group .contant button span{
+    width: 0;
+    height:100%;
+    position: absolute;
+    background:rgb(83, 2, 2) ;
+    border-radius: 10px;
+    z-index: -2;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+    margin: 1px;
+}
+body .first-group .contant button:hover{
+    border: none;
+}
+body .first-group .contant button:hover span{
+    width: 100%;
+}
+
+
+/* ///////////////////////////////////////
+             second-group
+ ///////////////////////////////////////
+ */
+
+ body .second-group{
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+ }
+
+
+ body .second-group h1{
+    text-decoration: none;
+    text-transform:uppercase ;
+     margin: 40px;
+     text-align: center;
+     color: rgb(255, 255, 255);
+     position: relative;
+
+ }
+
+
+ body .second-group h1::before{
+    content: '';
+    height: 3px;
+    width: 40%;
+    border-radius: 50%;
+    position: absolute;
+    background: linear-gradient(to right, rgb(0, 0, 0),rgb(83, 2, 2), rgb(0, 0, 0));
+    bottom: -10px;
+    left: 0px;
+ 
+    }
+   
+
+ body .second-group h1::after{
+ content: '';
+ height: 3px;
+ width: 40%;
+ border-radius: 50%;
+ position: absolute;
+ background: linear-gradient(to right, rgb(0, 0, 0),rgb(83, 2, 2), rgb(0, 0, 0));
+ right: 0px;
+ bottom: -10px;
+
+ }
+
+ body .second-group .content{
+     width: 100%;
+     height:auto;
+     
+ }
+ 
+ body .second-group .content .row {
+     justify-content: space-between;
+     margin: 20px;
+ }
+
+ body .second-group .content .row .card{
+     background:transparent ;
+     box-shadow: 5px black;
+     border: none;
+     color: white;
+     margin: 10px 0;
+     display: none;
+     
+ }
+
+ body .second-group .content .row .card img{
+    border-radius: 10px;
+    opacity: .5;
+    height:170px;
+    transition: .5s;
+}
+
+ body .second-group .content .row .card:hover img{
+
+    border-radius: 30px;
+     opacity:1;
+     transition: .5s;
+     
+
+ }
+
+ body .second-group .content .row .card .card-body a{
+     background: transparent;
+     border-radius: 10px;
+     border: 2px solid #3a0000;
+     position: relative;
+     overflow: hidden;
+     display: block;
+ }
+
+ body .second-group .content .row .card .card-body a span{
+
+    width: 0;
+    height:100%;
+    position: absolute;
+    background:#3a0000 ;
+    border-radius: 10px;
+    z-index: -2;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+
+
+ }
+
+ body .second-group .content .row .card .card-body a:hover{
+
+    border: none;
+ }
+
+
+ body .second-group .content .row .card .card-body a:hover span{
+     width: 100%;
+    
+
+ }
+
+/* ///////////////////////////////////////
+             third-group
+ ///////////////////////////////////////
+ */
+
+
+ body .third-group{
+     width: 100%;
+     height:auto;
+     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(43, 2, 2, 0.75)),url(../imegs/about-3.jpg) ;
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ body .third-group .component{
+    width: 100%;
+    height:auto;
+    padding:60px 0;
+
+ }
+
+ body .third-group .component h1{
+    padding-top: 10px;
+     color: rgb(255, 255, 255);
+     text-align: center;
+     position: relative;
+
+ }
+
+ body .third-group .component h1::before{
+    content: '';
+    height: 3px;
+    width: 45%;
+    border-radius: 50%;
+    position: absolute;
+    background: linear-gradient(to right, rgb(0, 0, 0),rgb(83, 2, 2), rgb(0, 0, 0));
+    bottom: -10px;
+    left: 0px;
+ 
+    }
+   
+
+ body .third-group .component h1::after{
+ content: '';
+ height: 3px;
+ width: 45%;
+ border-radius: 50%;
+ position: absolute;
+ background: linear-gradient(to right, rgb(0, 0, 0),rgb(83, 2, 2), rgb(0, 0, 0));
+ right: 0px;
+ bottom: -10px;
+
+ }
+
+ body .third-group .component .container{
+     height: auto;
+     margin-top: 30px;
+ }
+
+ body .third-group .component .container .row {
+     justify-content: space-between;
+ }
+
+ body .third-group .component .container .row .about-1{
+     text-align: center;
+     height:auto ;
+     margin-top: 15px;
+     display: flex;
+     opacity: 0;
+     transition: all .5s;
+     justify-content: center;
+ }
+
+ body .third-group .component .container .row .about-1 .about-1-1{
+     background:linear-gradient(rgba(83, 2, 2, 0.5),rgba(0, 0, 0, 0.5)) ;
+     border-radius: 30px;
+     height: 100%;
+     
+    
+ }
+
+ body .third-group .component .container .row .about-1 .about-1-1:hover{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(83, 2, 2, 0.5)) ;
+   
+    
+ }
+
+ body .third-group .component .container .row .about-1 .about-1-1 .media{
+     color: white;
+    margin-top: 10px;
+ }
+
+ body .third-group .component .container .row .about-2{
+    height:auto ;
+    margin: 15px 20px ;
+    background:linear-gradient(rgba(83, 2, 2, 0.5),rgba(0, 0, 0, 0.5)) ;
+    border-radius: 30px;
+    opacity: 0;
+    transition: all .5s;
+ }
+
+ body .third-group .component .container .row .about-2:hover{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(83, 2, 2, 0.5)) ;
+ }
+
+ body .third-group .component .container .row .about-2 .media{
+    color: white;
+   margin-top: 10px;
+}
+
+ body .third-group .component .container .row .about-3{
+    height:auto ;
+    margin-top: 15px;
+    background:linear-gradient(rgba(83, 2, 2, 0.5),rgba(0, 0, 0, 0.5)) ;
+    border-radius: 30px;
+    opacity: 0;
+    transition: all .5s;
+ }
+
+ body .third-group .component .container .row .about-3:hover{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(83, 2, 2, 0.5)) ;
+    
+ }
+
+
+ body .third-group .component .container .row .about-3 .media{
+    color: white;
+   margin-top: 10px;
+}
+
+
+ body .third-group .component .container .row .about-4{
+    background:linear-gradient(rgba(83, 2, 2, 0.5),rgba(0, 0, 0, 0.5)) ;
+    height:auto ;
+    margin: 15px 20px;
+    border-radius: 30px; 
+    opacity: 0;
+    transition: all .5s;
+   
+ }
+
+ body .third-group .component .container .row .about-4:hover{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(83, 2, 2, 0.5)) ;
+    
+ }
+
+
+ body .third-group .component .container .row  .about-4 .media{
+    color: white;
+   margin-top: 10px;
+}
+
+/* ///////////////////////////////////////
+             fourd-group
+ ///////////////////////////////////////
+ */
+
+ body .fourd-group{
+     width: 100%;
+     height: auto;
+     color: white;
+ }
+
+ body .fourd-group h1{
+     margin-top: 40px;
+     position: relative;
+ }
+
+ body .fourd-group h1::before{
+    content: '';
+    height: 3px;
+    width: 45%;
+    border-radius: 50%;
+    position: absolute;
+    background: linear-gradient(to right, rgb(124, 124, 124),rgb(255, 255, 255), rgb(116, 116, 116));
+    bottom: -10px;
+    left: 27%;
+ 
+    }
+   
+
+ 
+
+
+ body .fourd-group .component{
+
+    margin-top: 20px;
+     width: 100%;
+     height: auto;
+     margin-bottom: 30px;
+ }
+
+ body .fourd-group .component .container{
+     width: 100%;
+     height: auto;
+ }
+
+ body .fourd-group .component .container .form-row{
+     margin-top: 20px;
+     justify-content: center;
+ }
+
+
+
+ /* ///////////////////////////////////////
+            FOOTER
+ ///////////////////////////////////////
+ */
+
+body .footer{
+    width: 100%;
+    height: auto;
+   background: rgb(34, 0, 0) ;
+}
+
+body .footer .container{
+
+    
+    position: relative;
+    height: auto;
+    color: rgb(255, 255, 255);
+
+}
+
+
+body .footer .container::before{
+    content: '';
+    height:100%;
+    width: 1px;
+    position: absolute;
+    background: white;
+    left: 0;
+    top: 0px;
+    
+}
+
+
+body .footer .container::after{
+    content: '';
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    background: white;
+    right: 0;
+    top: 0;
+
+
+}
+
+body .footer .container .row{
+
+    justify-content: space-between;
+}
+
+body .footer .container .row .about-us{
+    margin: 20px;
+}
+
+
+body .footer .container .row .CATEGORIES{
+    margin: 20px;
+}
+
+
+body .footer .container .row .CATEGORIES ul li{
+    list-style: none;
+    margin: 0 20px;
+    
+}
+
+body .footer .container .row .CATEGORIES ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform:uppercase ;
+}
+
+
+
+body .footer .container .row  .group-links {
+    margin: 20px;
+
+}
+
+
+body .footer .container .row  .group-links a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+body .footer .para{
+    width: 100%;
+    height:auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+body .footer .para p{
+   margin: 30px;
+
+}
+
+
+body .up{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 50%;
+    right: 20px;
+    bottom: 20px;
+   position: fixed;
+   display: none;
+}
+
+body .up a{
+
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+
+}
+
+body .up .bi{
+    margin-top: 10px;
+}
+
+
+
+@media(max-width:980px ){
+
+    body .first-group .contant{
+        width: 100%;
+        top: 30%;
+        text-align: center;
+        transform: translateY(-50%);
+        color: #fff;
+    }
+    body .first-group .contant h1{
+        font-size: 40px;
+    
+    }
+    
+    body .first-group .contant p{
+        margin: 20px auto;
+        font-weight: 60px;
+        line-height:25px ;
+    }
+   
+    
+    
+    
+
+} 
+
+@media(max-width:300px ){
+
+
+    body .first-group .contant{
+        width: 100%;
+        top: 20%;
+        text-align: center;
+        transform: translateY(-50%);
+        color: #fff;
+    }
+    body .first-group .contant h1{
+        font-size: 20px;
+    
+    }
+    
+    body .first-group .contant p{
+        margin: 10px auto;
+        font-size: 10px;
+        font-weight: 10px;
+        line-height:25px ;
+    }
+}
